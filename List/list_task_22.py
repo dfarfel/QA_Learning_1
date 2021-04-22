@@ -13,13 +13,17 @@ list_guess_word = str_line.split()
 user_letter = str(input(f'Guess the letter {" ".join(list_guess_word)}: '))
 if user_letter in rand_word:
     index_user_letter = int(rand_word.find(user_letter))
+    list_guess_word[index_user_letter] = user_letter
+    word_guess_str = (''.join(list_guess_word))
     guess = True
 else:
+    word_guess_str = (''.join(list_guess_word))
     guess = False
 while True:
     while guess:
         if count > 8:
             sys.exit("Trials are over")
+        index_user_letter = int(rand_word.find(user_letter))
         list_guess_word[index_user_letter] = user_letter
         word_guess_str = (''.join(list_guess_word))
         if rand_word == word_guess_str:
@@ -38,10 +42,12 @@ while True:
         if count > 8:
             sys.exit("Trials are over")
         count += 1
-        user_letter = str(input(f'Ouch is painfull!!!Left {7 - count} chances  {" ".join(list_guess_word)}: '))
+        user_letter = str(input(f'Ouch is painfull!!!Left {7 - count} chances  {word_guess_str}: '))
         if user_letter in rand_word:
             guess = True
+            index_user_letter = int(rand_word.find(user_letter))
             list_guess_word[index_user_letter] = user_letter
+            word_guess_str = (''.join(list_guess_word))
             break
         else:
             continue
