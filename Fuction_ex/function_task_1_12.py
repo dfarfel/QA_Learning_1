@@ -8,8 +8,8 @@ def list_repeats(list_1,num_1):
     for i in range(num_1):
         print(list_1)
 
-list_1=[]
-print(fill_list_2(list_1))
-user_num=int(input("Enter quantity of repeats: "))
-list_repeats(list_1,user_num)
+# list_1=[]
+# print(fill_list_2(list_1))
+# user_num=int(input("Enter quantity of repeats: "))
+# list_repeats(list_1,user_num)
 
