@@ -1,3 +1,3 @@
-from Fuction_ex.function_task_2_1 import len_d
-str1="dima"
-print(len_d(str1))
+from Fuction_ex.function_task_2_3 import find_d
+list_1=["a","b","a","c"]
+print(find_d(list_1,"a",1))
