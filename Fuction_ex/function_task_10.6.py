@@ -6,8 +6,6 @@ def check_letter_up_or_low(str1):
             count_upp+=1
         elif i.islower():
             count_low+=1
-        else:
-            print("Error")
     return count_low,count_upp
 
 user_str=str(input("Enter your string: "))
