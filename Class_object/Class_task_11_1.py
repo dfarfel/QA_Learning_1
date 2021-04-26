@@ -10,11 +10,3 @@ class Course:
     def vacancy(self):
         vacancy_=self.max_num_students-self.num_students
         return vacancy_
-if __name__=="__name__":
-    qa=Course()
-    qa.name_course="Lohamim leHitech"
-    qa.course_num=1111
-    qa.num_students=27
-
-    print(qa.info())
-    print(qa.vacancy())
