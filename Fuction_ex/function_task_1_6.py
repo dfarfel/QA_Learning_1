@@ -3,7 +3,7 @@ def print_num_in_range(num_1,num_2):
         print(i,end=" ")
 
 
-#
-# user_num_1=int(input("Enter your number: "))
-# user_num_2=int(input("Enter your number: "))
-# print_num_in_range(user_num_1,user_num_2)
+if __name__=="__main__":
+    user_num_1=int(input("Enter your number: "))
+    user_num_2=int(input("Enter your number: "))
+    print_num_in_range(user_num_1,user_num_2)

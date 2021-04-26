@@ -1,3 +1,2 @@
-from Fuction_ex.function_task_2_7 import keys_d
-dict1={10:"dima",20:'Varya',30:"mama"}
-print(keys_d(dict1))
+list_1=[('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)]
+print(min(list_1))
