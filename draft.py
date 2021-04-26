@@ -1,3 +1,3 @@
-from Fuction_ex.function_task_2_3 import find_d
-list_1=["a","b","a","c"]
-print(find_d(list_1,"a",1))
+from Fuction_ex.function_task_2_7 import keys_d
+dict1={10:"dima",20:'Varya',30:"mama"}
+print(keys_d(dict1))

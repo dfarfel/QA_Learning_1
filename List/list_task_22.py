@@ -3,7 +3,6 @@ file_word = open('C:/Users/Dmoho/Desktop/list_word.txt', 'r+')
 str_word = file_word.read()
 list_word = str_word.split(',')
 rand_word = random.choice(list_word)
-print(rand_word)
 len_rand_word = int(len(rand_word))
 count, bottom_line, str_line, guess = 0, "_", "", bool
 for i in range(len_rand_word):
