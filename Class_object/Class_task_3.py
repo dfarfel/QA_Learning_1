@@ -6,13 +6,13 @@ class Person:
     def print_(self):
         print(f"Name of the person - {self.name}\nAge of the person - {self.age}\nNumber of child - {self.child_num}")
 
-    def hasChildren(self):
+    def has_children(self):
         if self.child_num > 0:
             has = True
         else:
             has = False
         return has
-    def ageGroup(self):
+    def age_group(self):
         if 0 <= self.age <= 18:
             group = "child"
         elif 19 <= self.age <= 60:

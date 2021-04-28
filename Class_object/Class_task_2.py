@@ -1,15 +1,15 @@
 class Student:
-    def __init__(self):
+    def __init__(self,grade):
         self.id = 0
         self.student_name = None
-        self.grade = 0
-    def checkPass(self):
-        if self.grade>=70:
-            passed=True
+        self.grade = grade
+    def check_pass(self):
+        if self.grade >= 70:
+            passed = True
         else:
-            passed=False
+            passed = False
         return passed
-    def updateGrade(self,procent):
+    def update_grade(self, procent):
         if type(procent) == int:
             self.grade += (self.grade*procent)/100
             if self.grade > 100:

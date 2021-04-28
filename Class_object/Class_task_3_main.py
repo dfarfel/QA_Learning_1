@@ -7,11 +7,11 @@ person_1.child_num = 2
 
 person_1.print_()
 
-if person_1.hasChildren():
+if person_1.has_children():
     print(f"{person_1.name} has {person_1.child_num} children")
 else:
     print(f"{person_1.name} hasn't childer")
 
-print(person_1.ageGroup())
+print(person_1.age_group())
 
 

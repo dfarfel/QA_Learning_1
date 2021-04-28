@@ -1,2 +1,2 @@
-list_1=[('English', 88), ('Science', 90), ('Maths', 97), ('Social sciences', 82)]
-print(min(list_1))
+import datetime
+print(datetime.datetime.now(). - datetime.date(1999,06,28))
