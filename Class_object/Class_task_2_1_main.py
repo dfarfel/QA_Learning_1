@@ -10,12 +10,12 @@ while user_input != 0:
         user_input = int(input("What I should to do? : 1 - eat, 2 - play, 3 - rest, 0 - end program\n"))
 
     elif user_input == 2:
-        cat_1.play(int(input("How much time?: ")))
+        cat_1.play(int(input("How much time?min 10 minute: ")))
         print(cat_1)
         user_input = int(input("What I should to do? : 1 - eat, 2 - play, 3 - rest, 0 - end program\n"))
 
     elif user_input == 3:
-        cat_1.rest(int(input("How much time?: ")))
+        cat_1.rest(int(input("How much time?min 10 minute: ")))
         print(cat_1)
         user_input = int(input("What I should to do? : 1 - eat, 2 - play, 3 - rest, 0 - end program\n"))
 
