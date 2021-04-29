@@ -19,6 +19,18 @@ class Bus:
         free_num_seat = int(free_list.index("Free"))+1
         self.dict_seats.update({free_num_seat : passenger_name})
 
+    def getOn_2(self,*names):
+        str_names=str(names)
+        str_names.strip("")
+        list_names=str_names.split(" ")
+        for i in list_names:
+            self.num_passenger += 1
+            if self.num_passenger > self.seats:
+                sys.exit(f'Sorry dear {i}. There is no free seat on the bus')
+            free_list=list(self.dict_seats.values())
+            free_num_seat=int(free_list.index("Free"))+1
+            self.dict_seats.update({free_num_seat : i})
+
 
 
     def getOf(self,passenger_name=None):
