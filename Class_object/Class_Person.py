@@ -9,7 +9,7 @@ class Person:
     def __eq__(self, other):
         if other == "Free":
             return False
-        if int(self.id) == int(other.id):
+        if self.id == other.id:
             return True
         else:
             return False

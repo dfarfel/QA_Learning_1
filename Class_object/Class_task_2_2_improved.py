@@ -5,16 +5,16 @@ class Bus_person:
         self.seats=[]
         self.num_passenger = 0
 
-    def conctructor(self,seats):
+    def constructor(self,seats):
         self.num_seats=seats
         for i in range(self.num_seats):
             self.seats.append("Free")
         return self.seats
 
-    def getOn(self, person):
+    def getOn(self, id):
         if self.num_passenger <= len(self.seats):
             seat_index=self.seats.index("Free")
-            self.seats[seat_index] = person
+            self.seats[seat_index] = id
             self.num_passenger += 1
         else:
             print("There is no place in the bus")
