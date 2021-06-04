@@ -1,5 +1,5 @@
 from openpyxl import Workbook
-workbook=Workbook()
+workbook=Workbook('C:/Users/dmoho/Desktop/TestCases.xlsx')
 sheet=workbook.active
 sheet['B1']="Varya"
 sheet["A1"]="Koza"
