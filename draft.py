@@ -1,5 +1,3 @@
-str_1="53-08-11"
-count=0
-for i in str_1:
-    count+=1
-print(count)
+import pyautogui
+im1=pyautogui.screenshot()
+im1.save(r'C:\QA\pictures\im.png')

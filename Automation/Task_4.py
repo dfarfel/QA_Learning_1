@@ -9,7 +9,8 @@ browser.get('http://demo.guru99.com/test/newtours/')
 time.sleep(1)
 UserName = browser.find_element_by_name('userName')
 UserName.send_keys("tutorial")
-
+tex='sdsa'
+tex.isnumeric()
 time.sleep(1)
 UserPassword = browser.find_element_by_name('password')
 UserPassword.send_keys('tutorial')
