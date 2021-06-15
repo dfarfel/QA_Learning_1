@@ -1,0 +1,62 @@
+1623756639257	geckodriver	INFO	Listening on 127.0.0.1:59897
+1623756642308	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dmoho\\AppData\\Local\\Temp\\rust_mozprofilebXnYDI"
+1623756643066	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dmoho\\AppData\\Local\\Temp\\rust_mozprofilebXnYDI\\search.json.mozlz4", (void 0)))
+1623756647382	Marionette	INFO	Listening on port 59905
+1623756647838	Marionette	WARN	TLS certificate errors will be ignored for this session
+1623756648895	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x390141,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+1623756661960	Marionette	INFO	Stopped listening on port 59905
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623764764845	geckodriver	INFO	Listening on 127.0.0.1:57665
+1623764767916	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dmoho\\AppData\\Local\\Temp\\rust_mozprofileq2IQIJ"
+1623764768844	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dmoho\\AppData\\Local\\Temp\\rust_mozprofileq2IQIJ\\search.json.mozlz4", (void 0)))
+1623764773453	Marionette	INFO	Listening on port 57673
+1623764773663	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.phptravels.net/admin/quickbooking/?applytax=yes&service=Tours, line 904: TypeError: checkout is undefined
+1623764833698	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623764834428	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623764934252	Marionette	INFO	Stopped listening on port 57673
+1623764944750	geckodriver	INFO	Listening on 127.0.0.1:60278
+1623764947819	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dmoho\\AppData\\Local\\Temp\\rust_mozprofile7fDHOi"
+1623764948473	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\dmoho\\AppData\\Local\\Temp\\rust_mozprofile7fDHOi\\search.json.mozlz4", (void 0)))
+1623764952662	Marionette	INFO	Listening on port 60286
+1623764952865	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.phptravels.net/admin/quickbooking/?applytax=yes&service=Tours, line 904: TypeError: checkout is undefined
+1623765014536	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+1623765015279	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://marionette/content/sync.js:237:19
+TimedPromise@chrome://marionette/content/sync.js:222:10
+interaction.flushEventLoop@chrome://marionette/content/interaction.js:431:10
+webdriverClickElement@chrome://marionette/content/interaction.js:179:31
+JavaScript error: resource://devtools/client/inspector/grids/grid-inspector.js, line 101: TypeError: this.inspector is null
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1623765483017	Marionette	INFO	Stopped listening on port 60286
+"--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\dmoho\\AppData\\Local\\Temp\\rust_mozprofileVrAhtj"
+1623765479068	Marionette	INFO	Marionette enabled
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

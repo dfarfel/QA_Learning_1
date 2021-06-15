@@ -1,5 +1,12 @@
-str_1="53-08-11"
-count=0
-for i in str_1:
-    count+=1
-print(count)
+from AOS_Automation.Ecxel_prog import Excel_AOS
+product=Excel_AOS()
+# value=product.product_1('color',10)
+# print(value)
+# value_2=product.product_2('color',10)
+# print(value_2)
+# value_3=product.product_3('color',10)
+# print(value_3)
+value_4=product.exist_account('password',1)
+print(value_4)
+value_5 = product.new_account('email',10)
+print(value_5)
