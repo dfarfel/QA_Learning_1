@@ -16,3 +16,9 @@ class Cart_Page:
         quantity_list = self.driver.find_elements_by_css_selector(
             '[class="smollCell quantityMobile"]>[class="ng-binding"]')
         return quantity_list[place_number-1]
+
+    def cart_is_empty_element(self):
+        self.driver.find_element_by_css_selector('[class="roboto-bold ng-scope"]')
+
+    def cart_is_empty_element_txt(self):
+        return self.driver.find_element_by_css_selector('[class="roboto-bold ng-scope"]').text

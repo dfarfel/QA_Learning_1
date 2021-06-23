@@ -25,3 +25,10 @@ class Product_Page:
 
     def open_category_page(self):
         self.driver.find_element_by_css_selector('[class="pages fixedImportant productImage ng-scope"]>[class="ng-binding"]').click()
+
+    def click_checkout_btn(self):
+        self.driver.find_element_by_id('checkOutPopUp').click()
+
+    def open_my_orders(self):
+        self.driver.find_element_by_id('menuUser').click()
+        self.driver.find_element_by_css_selector('[id="loginMiniTitle"]>[class="option ng-scope"]').click()
